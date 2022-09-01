@@ -1,0 +1,20 @@
+footer {
+    background-color: white;
+    padding: 20px;
+    h4 {
+        text-align: center;
+        color: 84a59d;
+    }
+    div {
+        text-align: center;
+        margin-top: 10px;
+        a{
+            text-decoration: none;
+            padding: 10px;
+            color: black;
+            &:hover{
+                color: $color-elegido;
+            }
+        }
+    }
+}

@@ -1,0 +1,31 @@
+header {
+    background-color: white;
+    nav {
+        text-align: center;
+        padding: 10px;
+        h2{
+            letter-spacing: 10px;
+            a{
+                text-decoration: none;
+                color: $color-elegido;
+            }
+        }
+        ul {
+            text-align: center;
+            padding-top: 10px;
+            font-size: 18px;
+            li{
+                display: inline-block;
+                margin-left: 10px;
+                a{
+                    text-decoration: none;
+                    color: black;
+                    padding: 5px;
+                    &:hover{
+                        color: #f5cac3;
+                    }
+                }
+            }
+        }
+    }
+}
